@@ -1,24 +1,59 @@
 Question 1: What do you see in the browser? 
+
 When you open another tab and perform a click/drag action, what happens?
 
-  A bunny in a black screen is shown in the browser.
+
+
+  A bunny is shown on a black screen.
+
   When we click and drags the bunny, the bunny turns red. 
+
   In the second tab, the bunny 'copies' the movement we made to the bunny in the first tab.
 
+
+
 Question 2: What are some of the differences between TypeScript and JavaScript?
+
   JavaScript is a type of TypeScript. JavaScript + ES5 features = TypeScript.
-  Unlike JavaScript, TypeScript is OOP, while Javasciprt is a scripting lanaugage.
+
+  Unlike JavaScript, TypeScript is OOP, while Javascript is a scripting language.
+
   Reference: https://www.geeksforgeeks.org/difference-between-typescript-and-javascript/
+
+
 
 Question 3: Why is a web application bundler (Parcel, Webpack, Rollup, etc.) useful for modern web projects? What are some features that ParcelJS provides?
 
-  To eleminiate the number of round trip requests the browser needs to take to get and load all scripts.
+
+
+  To eliminate the number of round trip requests the browser needs to take to get and load all scripts.
+
   Some useful features ParcelJS provides include: 
+
     - fast bundle times
+
     - automatic code transformation using Babel, PostCSS and PostHTML
+
     - automatic module updates in your browser during development
+
     - friendly error logging and etc.
+
+
 
 Question 4: What are the different values for the readyState a WebSocket can be in? Briefly describe what each state means. (Hint: check out the Mozilla WebSocket API)
 
-Question 5: What's the link to your github repo?
+  0 = connecting (socket is created but connection not made yet)
+
+  1 = open (connection is ready)
+
+  2 = closing (connection is closing)
+
+  3 = closed (connection is closed or could not be opened)
+
+  Reference: https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/readyState
+
+
+
+Question 5: What's the link to your GitHub repo?
+
+  https://github.com/HailanXyouknow/nodejs-ws-lab
